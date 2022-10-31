@@ -1,0 +1,84 @@
+body {
+  background-image:url("background.jpg");
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+/*IMPORTANTE,
+utilizza l'rgb per opacizzare il conteiner-con la proprietà opacity ereditano l'opacità anche i figli*/
+.conteiner{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  height: 550px;
+  width: 850px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 30px; /*utile per centrare meglio il conteiner e proporzionarlo*/
+  padding-bottom: 60PX;
+}
+
+.logo {
+  max-width: 150px;
+  margin-top: 50px;
+}
+.logo-text {
+  font-size: 20px;
+  display: inline-block;
+  color: #00dd00; /*verde lime*/
+}
+
+.nav {
+  background-color: #00dd00;
+  margin: auto;
+  text-align: center;
+  width: 720px;
+  height: 20px;
+  padding: 10px; /*Il padding va sommato all'altezza che sarà 20+10px*/
+}
+
+
+.monopattino {
+  margin-left: 60px;
+  margin-top: 10px;
+  color: white;
+  text-align: left;
+}
+
+.subject {
+  color: white;
+  font-size:15px;
+}
+
+.via {
+font-size: 10PX;
+}
+
+.carica{
+font-size: 10PX;
+}
+
+.arrow {
+  color: white;
+}
+
+.gino {
+  background-color: #f5b453;
+  width: 270px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+
+.mike {
+  background-color:#1ec31e;
+  width: 440px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.fede {
+  background-color: #be4141;
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+}
